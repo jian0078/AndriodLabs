@@ -3,4 +3,10 @@
     <string name="app_name">Lab1</string>
     <string name="hello_message">你好，世界!</string>
     <string name="ButtonText">我是按钮</string>
+    <string name="loginLabel">登入</string>
+    <string name="loginText">用户名</string>
+    <string name="PasswordLabel">密码</string>
+    <string name="RadioButton">按钮</string>
+    <string name="CheckBox">勾选框</string>
+    <string name="SwitchText">这步做什么？</string>
 </resources>
