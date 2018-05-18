@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lab3</string>
+    <!--lab1 details-->
+    <string name="app_name">Lab4</string>
     <string name="hello_message">你好，世界!</string>
     <string name="ButtonText">我是按钮</string>
+<!--lab2 details-->
     <string name="loginLabel">登入</string>
     <string name="loginText">用户名</string>
     <string name="PasswordLabel">密码</string>
     <string name="RadioButton">按钮</string>
     <string name="CheckBox">勾选框</string>
     <string name="SwitchText">这步做什么？</string>
-
+<!--lab3 details-->
     <string name="dialog_message">你想结束当前活动?</string>
     <string name="dialog_title">活动结束</string>
     <string name="OK">确认</string>
     <string name="cancel">取消</string>
+ <!--lab4 details-->
+    <string name="StartChat">开始聊天</string>
+    <string name="ButtonSend" >发送 </string>
 </resources>
+

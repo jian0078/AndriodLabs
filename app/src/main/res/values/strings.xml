@@ -1,22 +1,25 @@
 <resources>
-    <string name="app_name">Lab3</string>
+    <!--lab1 details-->
+    <string name="app_name">Lab4</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
-	<string name="loginLabel">Login</string>
+    <!--lab2 details-->
+    <string name="loginLabel">Login</string>
     <string name="loginText">Login name</string>
-
     <string name="loginButton">Login</string>
     <string name="PasswordLabel">Password</string>
     <string name="RadioButton">RadioButton</string>
     <string name="CheckBox">CheckBox</string>
     <string name="SwitchText">What does this do？</string>
-
+    <!--lab3 details-->
     <string name="ImageButtonText">ImageButton</string>
-
     <string name="dialog_message">Do you want to finish the activity?</string>
     <string name="dialog_title">Finish Activity </string>
     <string name="OK">OK</string>
     <string name="cancel">CANCEL</string>
+    <!--lab4 details-->
+    <string name="StartChat">Start Chat</string>
+    <string name="ButtonSend" >SEND </string>
 
 
 

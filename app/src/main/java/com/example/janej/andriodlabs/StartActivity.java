@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 public class StartActivity extends Activity {
     Button iAmButton;
+    Button chatButton;
     protected static final String ACTIVITY_NAME = "StartActivity";
 
     @Override
@@ -26,6 +27,16 @@ public class StartActivity extends Activity {
             public void onClick(View v) {
                 Intent intent =new Intent(StartActivity.this, ListItemsActivity.class);
                 startActivityForResult(intent,50);
+            }
+        });
+
+       chatButton=findViewById(R.id.chatButton);
+        chatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(ACTIVITY_NAME,"User clicked Start Chat");
+                Intent intent=new Intent(StartActivity.this, ChatWindowActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -77,3 +88,4 @@ public class StartActivity extends Activity {
         Log.i(ACTIVITY_NAME,"In onDestroy()");
     }
 }
+
