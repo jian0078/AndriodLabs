@@ -105,9 +105,9 @@ public class ChatWindowActivity extends Activity {
                     //add the frame in the framelayout
                     FragmentManager fm = getFragmentManager();
                     FragmentTransaction transaction = fm.beginTransaction();
-                    MessageFragment messageFragment = new MessageFragment(ChatWindowActivity.this);
+                    MessageFragmentActivity messageFragment = new MessageFragmentActivity(ChatWindowActivity.this);
 
-                    MessageFragment currentFragment = (MessageFragment) getFragmentManager().findFragmentByTag("display");
+                    MessageFragmentActivity currentFragment = (MessageFragmentActivity) getFragmentManager().findFragmentByTag("display");
                     if (currentFragment != null) {
                         transaction.remove(currentFragment);
                     }

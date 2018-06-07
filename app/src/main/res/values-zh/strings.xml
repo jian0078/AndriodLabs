@@ -1,45 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
     <!--lab1 details-->
+
+
     <string name="app_name">Lab8</string>
+
     <string name="hello_message">你好，世界!</string>
+
     <string name="ButtonText">我是按钮</string>
-<!--lab2 details-->
+
+    <!--lab2 details-->
+
+
     <string name="loginLabel">登入</string>
+
     <string name="loginText">用户名</string>
+
     <string name="PasswordLabel">密码</string>
+
     <string name="RadioButton">按钮</string>
+
     <string name="CheckBox">勾选框</string>
+
     <string name="SwitchText">这步做什么？</string>
-<!--lab3 details-->
+
+    <!--lab3 details-->
+
+
     <string name="dialog_message">你想结束当前活动?</string>
+
     <string name="dialog_title">活动结束</string>
+
     <string name="OK">确认</string>
+
     <string name="cancel">取消</string>
- <!--lab4,5 details-->
+
+    <!--lab4,5 details-->
+
+
     <string name="StartChat">开始聊天</string>
-    <string name="ButtonSend" >发送 </string>
+
+    <string name="ButtonSend">发送 </string>
+
     <!--Lab6 details-->
+
+
     <string name="WeatherButton">天气预报</string>
+
     <string name="currentTemperature">当前气温</string>
+
     <string name="minTemperature">最低气温</string>
+
     <string name="maxTemperature">最高气温</string>
 
     <!--lab7 details-->
+
+
     <string name="TextViewMessage">信息</string>
+
     <string name="TextViewId">身份号码：</string>
+
     <string name="messageButton">删除信息</string>
 
     <!--lab8 details-->
+
+
     <string name="title_activity_test_toolbar">测试工具栏</string>
+
     <string name="toolbarDialogTitle">退出当前页面？</string>
+
     <string name="hint">更新第一个按钮的提示信息</string>
+
     <string name="dialogPositive">确认</string>
+
     <string name="dialogNegative">取消</string>
+
     <string name="toolBarButton">测试工具栏</string>
+
     <string name="aboutMenu">关于</string>
+
     <string name="aboutInformation">版本 1.0, 由蒋逸完成</string>
+
     <string name="snackbarMessage">你选择了第一个按钮。</string>
 
 </resources>
-

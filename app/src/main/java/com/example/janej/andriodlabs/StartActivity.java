@@ -12,6 +12,7 @@ public class StartActivity extends Activity {
     Button iAmButton;
     Button chatButton;
     Button weatherButton;
+    Button toolBarButton;
     protected static final String ACTIVITY_NAME = "StartActivity";
 
     @Override
@@ -21,7 +22,7 @@ public class StartActivity extends Activity {
 
         Log.i(ACTIVITY_NAME, "In onCreate()");
 
-        iAmButton=findViewById(R.id.iAmButton);
+        iAmButton= findViewById(R.id.iAmButton);
 
         iAmButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,6 +48,16 @@ public class StartActivity extends Activity {
             public void onClick(View v) {
                 Log.i(ACTIVITY_NAME,"User clicked Weather Button");
                 Intent intent=new Intent(StartActivity.this, WeatherForecastActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        toolBarButton=findViewById(R.id.toolBarButton);
+        toolBarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(ACTIVITY_NAME,"User clicked Toolbar Button");
+                Intent intent=new Intent(StartActivity.this, TestToolbar.class);
                 startActivity(intent);
             }
         });

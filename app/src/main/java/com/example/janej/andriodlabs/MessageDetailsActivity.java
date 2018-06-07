@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 public class MessageDetailsActivity extends Activity {
     Bundle bundle;
-    MessageFragment messageFragment;
+    MessageFragmentActivity messageFragment;
     FragmentTransaction fragmentTransaction;
 
     @Override
@@ -15,7 +15,7 @@ public class MessageDetailsActivity extends Activity {
         setContentView(R.layout.activity_message_details);
 
         bundle=getIntent().getExtras();//get bundle from another activity
-        messageFragment=new MessageFragment();
+        messageFragment=new MessageFragmentActivity();
         messageFragment.setArguments(bundle);
         fragmentTransaction=getFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.frameDetail,messageFragment);
