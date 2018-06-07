@@ -2,19 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.janej.andriodlabs">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
 
     <application
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".ListItemsActivity">
 
-        </activity>
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".ListItemsActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,9 +20,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StartActivity"></activity>
+        <activity android:name=".StartActivity" />
         <activity android:name=".TestActivity" />
-        <activity android:name=".ChatWindowActivity"></activity>
+        <activity android:name=".ChatWindowActivity" />
+        <activity android:name=".WeatherForecastActivity" />
+        <activity android:name=".MessageDetailsActivity" />
+
+        <!-- <activity -->
+        <!-- android:name=".TestToolbarActivity" -->
+        <!-- android:label="@string/title_activity_test_tool_bar" /> -->
+        <activity
+            android:name=".TestToolbar"
+            android:label="@string/title_activity_test_toolbar"
+            android:theme="@style/NoActionBar"></activity>
     </application>
 
 </manifest>

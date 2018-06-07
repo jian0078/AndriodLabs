@@ -1,6 +1,6 @@
 <resources>
     <!--lab1 details-->
-    <string name="app_name">Lab5</string>
+    <string name="app_name">Lab8</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
     <!--lab2 details-->
@@ -17,11 +17,30 @@
     <string name="dialog_title">Finish Activity </string>
     <string name="OK">OK</string>
     <string name="cancel">CANCEL</string>
-    <!--lab4 details-->
+
+    <!--lab4,5 details-->
     <string name="StartChat">Start Chat</string>
-    <string name="ButtonSend" >SEND </string>
+    <string name="ButtonSend">Send </string>
+    <!--Lab6 details-->
+    <string name="WeatherButton">Forestcast</string>
+    <string name="currentTemperature">Current Temperature</string>
+    <string name="minTemperature">Low Temperature</string>
+    <string name="maxTemperature">High Temperature</string>
 
-
-
+    <!--lab7 details-->
+    <string name="TextViewMessage">Information</string>
+    <string name="TextViewId">Id：</string>
+    <string name="messageButton">Delete Information</string>
+    <!--lab8 details-->
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+    <string name="toolbarDialogTitle">Do you want to go back?</string>
+    <string name="hint">New alert message for menu one</string>
+    <string name="dialogPositive">OK</string>
+    <string name="dialogNegative">Cancel</string>
+    <string name="toolBarButton">TEST TOOLBAR</string>
+    <string name="aboutMenu">About</string>
+    <string name="aboutInformation">Version 1.0, by Yi Jiang</string>
+    <string name="snackbarMessage">You selected item 1.</string>
+    <!--<Menu name="toolbar_menu">Toolbar Menu</Menu>-->
 
 </resources>

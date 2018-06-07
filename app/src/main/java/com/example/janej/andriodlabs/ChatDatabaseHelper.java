@@ -11,11 +11,13 @@ public class ChatDatabaseHelper extends SQLiteOpenHelper{
     public static  final String KEY_ID="id";
     public static final String KEY_MESSAGE="message";
     public static final String  TABLE_NAME= "myTable";
+    public static final String name="chatTable2";
 
     private static final String DATABASE_CREATE="create table "
 +TABLE_NAME +"(" +KEY_ID+" integer primary key autoincrement, " + KEY_MESSAGE + " text not null);";
 
     private static final  String DATABASE_DELETE="drop table if exists "+ TABLE_NAME +";" ;
+
 
     public ChatDatabaseHelper(Context ctx){
         super(ctx, DATABASE_NAME,null,VERSION_NUM);
